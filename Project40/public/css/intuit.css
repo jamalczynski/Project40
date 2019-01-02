@@ -1,0 +1,140 @@
+body {
+    background-color: lightgray;
+}
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.midtwo {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 380px;
+    justify-content: center;
+    /*padding: 38px;*/
+    border: 1px solid dimgray;
+    border-radius: 1%;
+}
+.blue {
+    color: blue;
+}
+.top {
+    display: flex;
+    /*border: 2px solid green;*/
+    align-self: flex-end;
+    padding: 15px;
+}
+.lock {
+    display: flex;
+    background-color: blue;
+    color: white;
+    border-radius: 8%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid black;
+}
+.lock img {
+    width: 14px;
+    height: 14px;
+    padding-right: 5px;
+}
+.lock2 {
+    margin-top: 5px;
+    padding: 10px 40px 10px 40px;
+}
+.space {
+    color: lightgray;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.underline:hover {
+    text-decoration: underline;
+}
+.whitebox {
+    display: flex;
+    flex-direction: column;
+}
+.head {
+    align-self: center;
+    text-align: center;
+}
+.tqm img {
+    width: 340px;
+    padding-bottom: 5%;
+}
+.text {
+    text-align: center;
+    font-size: 16px;
+}
+.lps {
+    display: flex;
+    justify-content: center;
+    padding-top: 28px;
+}
+.three {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.input {
+    padding: 10px;
+}
+.inputphone {
+
+}
+input {
+    width: 100%;
+    padding: 5px;
+}
+.createaccount {
+    display: flex;
+    align-self: center;
+}
+h1 {
+    font-size: 24px;
+}
+.topwords {
+    font-size: 14px;
+    padding-right: 8px;
+}
+.textsmall {
+    font-size: 10px;
+}
+.graybot {
+    align-self: center;
+    background-color: lightgray;
+    padding: 5% 14% 5% 14%;
+}
+.below {
+    padding-bottom: 5%;
+}
+.formthing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.midone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.int {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+.int img {
+    width: 50%;
+    align-self: center;
+}
+
+@media screen and (max-width: 767px){
+    .top {
+        display: none;
+    }
+}
+
+
+
